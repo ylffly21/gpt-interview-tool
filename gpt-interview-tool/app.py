@@ -36,7 +36,7 @@ import openai
 #     print(result)
 import openai
 import streamlit as st
-# OPENAI_API_KEY = "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"  # 替换为你的真实密钥
+OPENAI_API_KEY = "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"  # 替换为你的真实密钥
 
 # 设置你的 OpenAI API Key（建议用 st.secrets 保存）
 openai.api_key = st.secrets["OPENAI_API_KEY"]  # 在 .streamlit/secrets.toml 设置你的 key
